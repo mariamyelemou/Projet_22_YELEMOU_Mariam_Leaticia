@@ -27,7 +27,7 @@ header{
 }
 
 .logo{
-     color: #fff;
+    color: #111;
     font-weight: bold;
     font-size: 2em;
     text-decoration: none;
@@ -35,6 +35,17 @@ header{
 
 .logo span{
     color: #fd911f ;
+}
+.delice{
+    color: #111;
+    font-weight: bold;
+    font-size: 2em;
+    text-decoration: none;
+    text-align: center;
+}
+
+.delice span{
+    color: #fd911f;
 }
 
 .navbar{
@@ -46,7 +57,7 @@ header{
     list-style: none;   
 }
 .navbar a{
-    color: #fff; 
+    color: #111; 
     text-decoration: none;
     margin-left: 30px;
     font-weight: 700;
@@ -78,6 +89,9 @@ header .navbar li a:hover{
     align-items: center;
     background-image: url(riz_blanc.avif);
     background-size: cover;
+}
+.banniere p{
+    color: #fff;
 }
 
 .banniere .contenu{
@@ -173,7 +187,11 @@ section{
 }
 
 .menu{
-    margin-top: -100px;
+     margin-top: -60px; 
+}
+.panne{
+    margin-top: -100px; 
+
 }
 
 .menu .contenu{
@@ -269,8 +287,30 @@ section{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border-radius: 15px;
+    border-radius: 30px;
     padding: 40px ;
+}
+.Video{
+    margin-left: 20%;
+}
+.deguster span{
+    color: #fd911f;
+}
+
+.deguster{
+    color: #111;
+    font-weight: bold;
+    font-size: 5em;
+    text-decoration: none;
+    text-align: center;
+    font-style: oblique;
+    font-size: xx-large;
+    margin-top: -10%;
+}
+.Ma{
+    text-align: center;
+    font-style: italic;
+    font-size: x-large;
 }
 
 .Temoignage .contenu .box .imbox{
@@ -334,7 +374,7 @@ section{
 }
 .contactform .inputboite{
     position: relative;
-    width: 100%;
+    width: 100%; 
     margin-bottom: 20px;
 }
 
@@ -346,7 +386,7 @@ section{
 }
 .contactform .inputboite input,
 .contactform .inputboite textarea{
-    width: 100%;
+    width: 100%; 
     border: 1px solid #555;
     padding: 10px;
     color: #111;
@@ -357,7 +397,7 @@ section{
   }
   .contactform .inputboite input[type="Submit"]{
     font-size: 1em;
-    font-weight: 700;
+    font-weight: 700; 
     color: #fff;
     background: #fd911f;
     display: inline-block;
@@ -400,7 +440,26 @@ header .sticky{
     box-shadow: 0px 5px 20px rgba(0,0,0,0.05);
 }
 
-
+.row{
+    display: flex;
+    box-sizing: border-box;
+}
+.footer{
+    background: #291010;
+    display: flex;
+    padding: 40px 20px;
+}
+.Service{
+    display: block;
+    color: #111;
+    margin-left: 50px;
+    background: #5a1616;
+}
+ .Service p{
+    color: #111;
+    justify-content: space-between;
+    margin-left: 20px;
+ }  
 
 
 
